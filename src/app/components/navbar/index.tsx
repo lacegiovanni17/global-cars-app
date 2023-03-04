@@ -17,8 +17,13 @@ ${`
 `};
 `;
 
+
+const LogoContainer = styled.div``;
+
 export function Navbar() {
     return <NavbarContainer>
-
+      <LogoContainer>
+        <Logo />
+        </LogoContainer>
     </NavbarContainer>
 }
